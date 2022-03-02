@@ -6,7 +6,7 @@ npm run test
 
 npm run start
 
-Consessions made (what I "left out" due to time):
+Concessions made (what I "left out" due to time):
 
 - General styling / theming
 - Product sorting
