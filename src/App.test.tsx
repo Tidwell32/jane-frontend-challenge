@@ -45,7 +45,7 @@ test("filter list of products", async () => {
   const input = await findByRole("query-input");
   fireEvent.change(input, { target: { value: "BaNaNaKUSH" } });
   const products = await findAllByRole("product-card");
-  expect(products).toHaveLength(1);
+  expect(products).toHaveLength(2);
 });
 
 test("add a product to the cart", async () => {
