@@ -167,7 +167,8 @@ const ProductCard = ({ product }: Props) => {
       <CartContainer>
         <QuantityContainer>
           {availableQuantities.length === 1 &&
-            availableQuantities.map((qty, i) => (
+            // kind of a pointless .map(), but I had plans for it to actually make sense with that Secret Galato
+            availableQuantities.map((qty) => (
               <FlexDiv key={qty.quantityType} direction="column" center>
                 <FlexDiv
                   direction="row"

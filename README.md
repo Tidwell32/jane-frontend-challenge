@@ -17,6 +17,7 @@ Consessions made (what I "left out" due to time):
 - More thorough testing
 - SEO (accessibility, tags, etc.)
 - Better mobile responsiveness with grids/breakpoints
+- Better typing of Redux's craziness
 
 # Jane Technologies - Frontend Coding Challenge
 
